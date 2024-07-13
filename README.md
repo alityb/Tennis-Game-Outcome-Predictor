@@ -2,7 +2,7 @@
 Predicts the outcome of a tennis game based on who's playing. Specifically tailored to the Olympics, as the data was taken from the last time Tennis was part of the Olympics (2020) until 2024. 
 
 # **Data** 
-Data was taken from this [repository]('https://github.com/JeffSackmann/tennis_atp/tree/master'). Some feature engineering was done such as adding streaks to the players if they won and changing winner and loser to player1 and player2 to avoid biases. 
+Data was taken from this [repository](https://github.com/JeffSackmann/tennis_atp/tree/master). Some feature engineering was done such as adding streaks to the players if they won and changing winner and loser to player1 and player2 to avoid biases. 
 # **Models** 
 Several models were run including Random Forest, Logistic Regression, Decision Tree, Neural Networks, but Gradient Boosting was by far the best in terms of accuracy with 94% 
 # **Confusion Matrix and Learning Curve** 
